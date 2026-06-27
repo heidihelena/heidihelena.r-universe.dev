@@ -1,0 +1,12 @@
+[
+  {
+    "package": "vahtian",
+    "url": "https://github.com/heidihelena/vahtian",
+    "subdir": "packages/vahtian-r"
+  },
+  {
+    "package": "vahtian.epinet",
+    "url": "https://github.com/heidihelena/epinet",
+    "subdir": "r/vahtian.epinet"
+  }
+]
