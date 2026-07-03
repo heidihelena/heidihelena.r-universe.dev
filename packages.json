@@ -9,4 +9,9 @@
     "url": "https://github.com/heidihelena/epinet",
     "subdir": "r/vahtian.epinet"
   }
+  {
+  "package": "recoverlite",
+  "url": "https://github.com/heidihelena/recoverlite"
+}
 ]
+
