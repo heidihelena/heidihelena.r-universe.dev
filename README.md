@@ -12,7 +12,7 @@ at **<https://heidihelena.r-universe.dev>**.
 
 ```r
 install.packages(
-  c("vahtian", "vahtian.epinet"),
+  c("vahtian", "vahtian.epinet", "recoverlite"),
   repos = c("https://heidihelena.r-universe.dev", "https://cloud.r-project.org")
 )
 ```
@@ -24,7 +24,8 @@ install.packages(
 | Package | What it does | Source |
 |---|---|---|
 | [![vahtian](https://heidihelena.r-universe.dev/badges/vahtian)](https://heidihelena.r-universe.dev/vahtian) **vahtian** | Reproducible, provenance-first evidence tooling — freeze a record set into a content-hashed, provenance-stamped corpus, verify it (tamper-evident), and keep a hash-chained audit trail. Byte-identical with the Python package [`vahtian`](https://pypi.org/project/vahtian/). | [heidihelena/vahtian](https://github.com/heidihelena/vahtian) · `packages/vahtian-r` |
-| [![vahtian.epinet](https://heidihelena.r-universe.dev/badges/vahtian.epinet)](https://heidihelena.r-universe.dev/vahtian.epinet) **vahtian.epinet** | Epistemic network analysis. | [heidihelena/epinet](https://github.com/heidihelena/epinet) · `r/vahtian.epinet` |
+| [![vahtian.epinet](https://heidihelena.r-universe.dev/badges/vahtian.epinet)](https://heidihelena.r-universe.dev/vahtian.epinet) **vahtian.epinet** | R interface to EpiNet — honestly evaluated outcome models on tabular and graph-shaped data: calibration, permutation nulls, model cards, closed-form contestability. Research demonstrator, not clinical decision support. | [heidihelena/epinet](https://github.com/heidihelena/epinet) · `r/vahtian.epinet` |
+| [![recoverlite](https://heidihelena.r-universe.dev/badges/recoverlite)](https://heidihelena.r-universe.dev/recoverlite) **recoverlite** | Pre-data recovery tests for planned study designs — simulate a declared design–analysis pair over a crossed scenario grid (null/target effects × declared/pessimistic nuisance assumptions) and get a PASS/RISK/FAIL verdict with Monte-Carlo-aware diagnosands: power, bias split into estimator bias and estimand drift, coverage, Type S/M, model failure. Companion to the recovery-test methods paper. | [heidihelena/recoverlite](https://github.com/heidihelena/recoverlite) |
 
 ## Adding a package
 
@@ -39,6 +40,7 @@ Append an entry to [`packages.json`](packages.json):
 
 ---
 
-Part of [Vahtian](https://vahtian.com) — human-first, auditable research tooling.
-Apache-2.0 where applicable.
-```
+Maintained by [Heidi Helena Andersén](https://orcid.org/0000-0001-5923-5865).
+`vahtian` and `vahtian.epinet` are part of [Vahtian](https://vahtian.com) —
+human-first, auditable research tooling; `recoverlite` accompanies the
+recovery-test methods paper. Apache-2.0 where applicable.
