@@ -12,5 +12,9 @@
   {
     "package": "recoverlite",
     "url": "https://github.com/heidihelena/recoverlite"
+  },
+  {
+    "package": "forskai",
+    "url": "https://github.com/heidihelena/forskai-r"
   }
 ]
