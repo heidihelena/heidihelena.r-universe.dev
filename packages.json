@@ -16,5 +16,10 @@
   {
     "package": "forskai",
     "url": "https://github.com/heidihelena/forskai-r"
+  },
+  {
+    "package": "qualivahti",
+    "url": "https://github.com/heidihelena/qualivahti-scripts",
+    "subdir": "rpkg"
   }
 ]
