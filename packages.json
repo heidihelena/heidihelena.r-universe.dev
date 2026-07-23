@@ -23,7 +23,12 @@
     "subdir": "rpkg"
   },
   {
-  "package": "assesslite", 
-  "url": "https://github.com/heidihelena/assesslite"
+    "package": "assesslite",
+    "url": "https://github.com/heidihelena/assesslite"
+  },
+  {
+    "package": "palettecore",
+    "url": "https://github.com/heidihelena/palettecore",
+    "subdir": "r/palettecore"
   }
 ]
